@@ -1,6 +1,7 @@
 from scrapy.contrib.linkextractors import LinkExtractor
 from scrapy.contrib.spiders import CrawlSpider, Rule
 
+
 class ArticleSpider(CrawlSpider):
     name = 'articles'
     allowed_domains = ['wikipedia.org']
